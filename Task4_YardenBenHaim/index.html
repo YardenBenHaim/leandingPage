@@ -1,0 +1,77 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik|Varela+Round" rel="stylesheet">
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+    <script src="jScripts/script.js"></script>
+    
+</head>
+<body>
+    <div class="row" id="container">
+        <header>
+            <h1>ברוכים הבאים לתואר טכנולוגיות למידה</h1>
+        </header>
+        <section class="half">
+            <p>אם תמיד רצית לשלב את תחום ההדרכה ביחד עם טכנולוגיה ועיצוב, התואר הזה הוא בדיוק בשבילך!<br />
+            התואר נלמד במכון הטכנולוגי חולון והוא מציע מגוון רחב של תחומים ההכרחיים להצלחת המקצוע: </p>
+            <ul>
+                <li>פיתוח וניהול הדרכה</li>
+                <li>ניהול ידע בארגונים</li>
+                <li>עיצוב ממשקי מידע</li>
+                <li>פיתוח וניהול אתרים</li>
+                <li>פיתוח ועיצוב אפליקציות במובייל</li>
+                <li>פיתוח משחקי מחשב</li>
+
+            </ul>
+             <a href="http://www.hit.ac.il/telem/overview">לפרטים נוספים לחץ כאן</a>
+        </section>
+
+        <section class="half">
+            <div class="form-wrapper">
+                <form>
+                    <input type="hidden" id="myEmail" name="name" value="yardenbenha@gmail.com">
+
+                    <div class="form-row">
+                        <label for="FirstName">שם פרטי:</label>
+                        <input type="text" id="FirstName" placeholder="הכנס את שמך הפרטי" />
+                    </div>
+
+                    <div class="form-row">
+                        <label for="LastName">שם משפחה:</label>
+                        <input type="text" id="LastName" placeholder="הכנס את שמך הפרטי" />
+                    </div>
+
+                    <div class="form-row">
+                        <label for="cellphone">טלפון:</label>
+                        <input type="text" id="cellphone" placeholder="הכנס את הטלפון" />
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">דואר אלקטרוני:</label>
+                        <input type="text" id="email" placeholder="הכנס את הדואר האלקטרוני" />
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" id="Send" value="שלח">
+                    </div>
+                    <div id="feedback"></div>
+                </form>
+            </div>
+        </section>
+        
+    </div>
+</body>
+</html>

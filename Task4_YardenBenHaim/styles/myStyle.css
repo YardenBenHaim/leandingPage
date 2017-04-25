@@ -1,0 +1,113 @@
+*{
+    box-sizing:border-box;
+}
+body 
+{
+    direction:rtl;
+    font-family: 'Varela Round', sans-serif;
+}
+p, h1, label, input{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.row{
+    
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.quarter,
+.third,
+.half,
+.two-thirds,
+.three-quarters{
+    float: right;
+}
+
+.quarter{
+    width: 25%;
+}
+.third{
+    width: 33.333333%;
+}
+.half{
+    width: 50%;
+}
+.two-thirds{
+    width: 66.66666%;
+}
+.three-quarters{
+    width: 75%;
+}
+
+body{
+    background-image:url(../images/technology-785742_1920.jpg);
+    background-size:cover;
+}
+
+#container{
+    width:1000px;
+    margin:50px auto 0 auto;
+    color:white;
+
+}
+
+label{
+    display:block;
+}
+
+.form-wrapper{
+    background-color:#549D9D;
+    width:60%;
+    padding:10px;
+    border-radius:10PX;
+}
+
+.form-row{
+    margin-bottom:10px;
+}
+
+input{
+    width:100%;
+}
+
+input[type=submit]{
+    background-color:#5F5F5F;
+    border:none;
+    color:white;
+    padding:10px;
+}
+
+header{
+    margin-bottom:50px;
+    text-align:center;
+}
+
+h1{
+    font-size:48px;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+a{
+    color:gray;
+}
+
+a:hover{
+    color:white;
+}
+
+.bigger{
+    font-size:50px;
+}
+
+#feedback{
+    color:white;
+    text-align:center;
+}
+
+ul{
+    margin-top:20px;
+}
